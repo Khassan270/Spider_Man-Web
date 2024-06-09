@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Denk+One:regular);
+.header{
+  height: 120px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__nav{
+  margin: 0 auto;
+  max-width: 800px;
+}
+.nav__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__link{
+  font-size: 40px;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+  padding: 10px;
+  font-family: 'Denk One';
+}
+.nav__image{
+  height: 120px;
+}
+.nav__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: #96C8EF;
+}
+#slider {
+  overflow: hidden;
+  width: 50%;
+}
+#slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 20s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+}
+.main{
+  font-family: 'Denk One';
+}
+.f1{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main2{
+  font-family: 'Denk One';
+}
+.f2{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.slides{
+  font-family: 'Denk One';
+}
+.main3{
+  font-family: 'Denk One';
+}
+.f3{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main4{
+  font-family: 'Denk One';
+}
+.f4{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main5{
+  font-family: 'Denk One';
+}
+.f5{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main6{
+  font-family: 'Denk One';
+}
+.f6{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+figcaption{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main7{
+  font-family: 'Denk One';
+}
+.f7{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.main8{
+  font-family: 'Denk One';
+}
+.f8{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.a1{
+  font-family: 'Denk One';
+}
+.a2{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.li1{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.h1{
+  font-family: 'Denk One';
+}
+.h2{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.h3{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.h4{
+  font-family: 'Denk One';
+}
+.h5{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.h6{
+  font-family: 'Denk One';
+  font-weight: 100;
+}
+.yt{
+  display: flex;
+  justify-content: center;
+}
